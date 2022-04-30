@@ -47,8 +47,8 @@ export default {
   head: {
     title: "LESAGE Alexandre | withalex",
     bodyAttrs: {
-      class: 'font-sans antialiased leading-normal tracking-wider bg-cover text-gray-900',
-      style: 'background-image:url(\'https://source.unsplash.com/1L71sPT5XKc\');'
+      class: 'font-sans antialiased leading-normal tracking-wider bg-cover bg-center text-gray-900',
+      style: 'background-image:url(\'https://res.cloudinary.com/dxttfb2j5/image/upload/f_auto,g_south,q_auto/v1651328513/imat-bagja-gumilar-jwTvCQQJXh0-unsplash_wizm2k.jpg\');'
     }
   }
 }
