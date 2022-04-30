@@ -53,6 +53,9 @@ export default {
     twitterIcon,
   }),
   head: {
+    htmlAttrs: {
+      lang: 'fr'
+    },
     title: "LESAGE Alexandre | withalex",
     bodyAttrs: {
       class: 'font-sans antialiased leading-normal tracking-wider bg-cover bg-center text-gray-900',
