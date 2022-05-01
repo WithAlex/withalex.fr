@@ -40,18 +40,7 @@
 </template>
 
 <script>
-import githubIcon from "~/assets/svg/github.svg?raw"
-import instagramIcon from "~/assets/svg/instagram.svg?raw"
-import linkedinIcon from "~/assets/svg/linkedin.svg?raw"
-import twitterIcon from "~/assets/svg/twitter.svg?raw"
-
 export default {
-  data: () => ({
-    githubIcon,
-    instagramIcon,
-    linkedinIcon,
-    twitterIcon,
-  }),
   head: {
     htmlAttrs: {
       lang: 'fr'
