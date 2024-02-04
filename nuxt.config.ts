@@ -1,6 +1,18 @@
-import { defineNuxtConfig } from 'nuxt3'
-
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-    buildModules: ['@nuxtjs/tailwindcss']
+    modules: ['@nuxtjs/tailwindcss'],
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
+    tailwindcss: {
+        configPath: 'tailwind.config.js',
+    },
+    nitro: {
+        compressPublicAssets: {
+            brotli: true,
+            gzip: true
+        }
+    },
 })
